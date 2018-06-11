@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-ALBUMID=([0]='2040956' [1]='1837568' [2]='1780124' )
-RSSFILE=([0]='lgh.xml' [1]='7890.xml' [2]='fger.xml')
-GRABBER="lizhi_linux_amd64"
+ALBUMID=([0]='118116' [1]='94154'  )
+RSSFILE=([0]='jmda.xml' [1]='ruixi.xml' )
+GRABBER="qingting_linux_amd64"
 
 wget -q https://github.com/cxuauto/podcast-rss/releases/download/3jia/$GRABBER
 chmod +x ./$GRABBER
@@ -19,5 +19,5 @@ ls
 for ((i=0;i<$len;i++));do
         UUID=PBUUID${i}
         eval tmp=\$$UUID
-        curl -X PUT -F c=@${RSSFILE[i]} https://ptpb.pw/$tmp
+        curl -X PUT -F c=@${RSSFILE[i]} http://fars.ee/$tmp
 done
