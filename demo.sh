@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ALBUMID="111098"
+ALBUMID="63048"
 RSSFILE="daming.xml"
 # export PBUUID=""
 ./qingting_linux_amd64 $ALBUMID > $RSSFILE
