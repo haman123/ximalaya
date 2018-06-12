@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-ALBUMID=([0]='118116' [1]='94154'  )
-RSSFILE=([0]='jmda.xml' [1]='ruixi.xml' )
-GRABBER="qingting_linux_amd64"
+ALBUMID=([0]='15428377' [1]='3595841' [2]='11539406' )
+RSSFILE=([0]='18jdxs.xml' [1]='yinyue.xml' [2]='jdxs.xml')
+GRABBER="ximalaya_linux_amd64"
 
 wget -q https://github.com/cxuauto/podcast-rss/releases/download/3jia/$GRABBER
 chmod +x ./$GRABBER
