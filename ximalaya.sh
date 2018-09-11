@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-ALBUMID=([0]='15428377' [1]='3595841' [2]='16957024' )
+ALBUMID=([0]='18135886' [1]='3595841' [2]='16957024' )
 RSSFILE=([0]='18jdxs.xml' [1]='yinyue.xml' [2]='jdxs.xml')
 GRABBER="ximalaya_linux_amd64"
 
